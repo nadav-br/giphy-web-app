@@ -1,0 +1,35 @@
+.App {
+    display: flex;
+    justify-content: center; 
+    background-color: #121212;
+    .Container {  
+        margin: 40px 0px;
+        .searchBar {
+            border-bottom: 1px solid rgba(0,0,0,.1);
+            padding:25px 25px;    
+            z-index: 10; 
+            input {
+                width: 750px;
+                border:1px solid #dadee7;
+                padding:9px 14px;
+                border-radius: 30px;
+                outline: none;
+            }
+            button {
+                background-color: #121212;
+                border:0;
+                outline: 0;
+                margin:0 10px;
+            }
+        }
+        .cardsList{
+            column-count: 4;
+            column-gap: 15px;
+            .resultCard {
+                max-width: 100%;
+                display: block;
+            }
+        }        
+        
+    }
+}
